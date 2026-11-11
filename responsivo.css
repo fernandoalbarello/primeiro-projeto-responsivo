@@ -1,0 +1,113 @@
+* {
+
+    margin: o;
+    padding: o;
+    box-sizing: border-box;
+    font-family: "oswald", sans-serif;
+}
+
+.caixa {
+    width: 100vw;
+    /* 100vw: altura da div (caixa) ocupando todos os "pedaços" da tela*/
+    height: 100vh;
+    /* 100vh: largura que vai ocupar todos os "pedaços" da tela*/
+}
+
+.conteiner-esquerdo {
+    display: inline-block;
+    /*inline-block para colocar uma seção DO LADO do outro*/
+    width: 60%;
+
+    /* a parte branca do lado esquerdo que ocupa uma parte maior que a cixza, em torno de 60%*/
+
+    padding: 136px;
+    margin-top: 25%;
+
+}
+
+
+.conteiner-direito {
+    display: inline-block;
+    /*inline-block para colocar uma seção DO LADO do outro*/
+    background-color: rgba(93, 93, 125, 0.16);
+    /* fazendo a cor do blacground e opacidade  16% ele deixou tudo em transparência então se aplica o rgbA, sendo que a última é o opacity. O Figma dá a cor em Hexadecimal, então coloca no CONVERTOR DE CORES para transformar de hexadecimal para rgb  */
+    height: 100vh;
+    /*quero a altura toda para ficar da mesma altura da outra seção. */
+    width: 40%;
+    /* já que a outra seção é de 60%*/
+
+    position: absolute;
+    /* para colocar a caixa cinza no lugar dela e pabsulute para se rolar a tela vai rolar junto*/
+padding-left: 136px;
+}
+
+.image-girl-telephone {
+    width: 455.9998474121094px;
+    height: 561.949951171875px;
+    position: relative;
+    top: 25%;
+    right: 130px;
+
+}
+
+h1 {
+    font-weight: 400px;
+    font-size: 55px;
+    line-height: 80px;
+    letter-spacing: 0px;
+    color: #5D5D7D;
+    margin-top: 20px;
+    width: 368px;
+    
+}
+
+p {
+    font-weight: 400px;
+    font-size: 28px;
+    line-height: 48px;
+    color: #5D5D7D;
+    opacity: 0.6;
+    margin: 15px 0px;
+    margin-top: 250px;
+    width: 540px;
+}
+
+.link-main {
+    width: 376px;
+    height: 41.1201171875px;
+    font-weight: 400px;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    width: 60px;
+    height: 41px;
+    top: -1316.88px;
+    left: -5708px;
+}
+
+
+
+
+
+.button-section {
+    width: 269px;
+    height: 62px;
+    background-color: #9499EA;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    color: #ffff;
+    font-size: 24px;
+    box-shadow: 0px 10px 24px 0px #9499EA19;
+
+}
+
+.button-section:hover{
+    opacity: 0.8;
+}
+
+.button-section:active{
+    opacity: .5;
+}
